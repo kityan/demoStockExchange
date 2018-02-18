@@ -1,0 +1,22 @@
+{
+  "name": "demo-stack-exchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js",
+    "db_install": "node ./db_install.js"
+  },
+  "author": "Pavel Kityan",
+  "license": "MIT",
+  "dependencies": {
+    "ansi-escape-sequences": "^2.2.2",
+    "cli-table": "^0.3.1",
+    "dateformat": "^3.0.3",
+    "express": "^4.16.2",
+    "lodash": "^4.17.5",
+    "mysql": "^2.15.0",
+    "websocket": "^1.0.25"
+  }
+}
